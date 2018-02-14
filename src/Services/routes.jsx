@@ -1,7 +1,7 @@
 import React from 'react'
 import {Router, Route, Redirect, hashHistory} from 'react-router'
-import Login from './Templates/login'
-import Cadastro from './Templates/cadastro'
+import Login from '../Components/Login'
+import Cadastro from '../Components/Cadastro'
 
 export default props => (
     <Router history={hashHistory}>
