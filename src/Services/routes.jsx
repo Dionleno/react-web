@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {Router, Route, Redirect, hashHistory} from 'react-router'
 import Login from '../Components/Login'
 import Cadastro from '../Components/Cadastro'
