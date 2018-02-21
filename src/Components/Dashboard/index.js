@@ -23,7 +23,7 @@ export class Dashboard extends Component {
                <div className="list-group">
                    <a href="#" className="list-group-item active">
                        <h4 className="list-group-item-heading">List group item heading</h4>
-                       <p className="list-group-item-text">Content goes here</p>
+                       <p className="list-group-item-text">R$ 1200.00</p>
                    </a>
                </div>
              
