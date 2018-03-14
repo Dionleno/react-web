@@ -8,12 +8,14 @@ import Custo from '../Components/Custo'
 
 export default props => (
     <Router history={hashHistory}>
+    <Route path='/' component={Login}>
         <Route path='/login' component={Login}></Route>
         <Route path='/cadastro' component={Cadastro}></Route>
-       
         <Route path='/admin' component={Dashboard}></Route>
         <Route path='/admin/cadastro' component={Cadastro}></Route>
-        <Route path='/admin/custo/add' component={Custo}></Route>
+        <Route path='/admin/custo/add' component={Custo}></Route> 
+    </Route>
+       
         <Route path='*' component={Login}></Route>
     </Router>
 )
